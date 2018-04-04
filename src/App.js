@@ -13,7 +13,7 @@ class App extends Component {
           <Link to='/'>Home</Link>
           </div>
         </header>
-        <div>
+        <div className='container-fluid' style={{padding: '0', margin: '0'}}>
           <Route path='/' component={Home}/>
         </div>
       </div>
