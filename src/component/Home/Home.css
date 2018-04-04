@@ -2,7 +2,23 @@
     padding: 30px 0px 30px 0px;
 }
 
-.thumbnail {
+.thumbnail{
     padding: 6px;
+    margin: 0px;
     border: none;
+}
+
+.container {
+    padding: 0;
+}
+
+@media only screen and (min-width : 768px) {
+    .container .custom-container { width: 768px; } 
+}
+
+h4 {
+    margin: 1px 0 0 0;
+}
+p {
+    margin: 0;
 }
