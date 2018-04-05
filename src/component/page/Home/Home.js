@@ -13,16 +13,32 @@ class Home extends Component {
             </div>
             <div style={{textAlign: 'left' ,margin: '0'}}>
                 <div className='container custom-container' >
-                    <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
-                    <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
-                    <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
-                    <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
+                    <div className='col-sm-3' style={{padding: '0 5px 0 0'}}>
+                        <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
+                    </div>
+                    <div className='col-sm-3' style={{padding: '0 5px 0 0'}}>
+                        <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
+                    </div>
+                    <div className='col-sm-3' style={{padding: '0 5px 0 0'}}>
+                        <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
+                    </div>
+                    <div className='col-sm-3' style={{padding: '0 5px 0 0'}}>
+                        <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
+                    </div>
                 </div>
                 <div className='container custom-container' >
-                    <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
-                    <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
-                    <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
-                    <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
+                    <div className='col-sm-3' style={{padding: '0 5px 0 0'}}>
+                        <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
+                    </div>
+                    <div className='col-sm-3' style={{padding: '0 5px 0 0'}}>
+                        <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
+                    </div>
+                    <div className='col-sm-3' style={{padding: '0 5px 0 0'}}>
+                        <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
+                    </div>
+                    <div className='col-sm-3' style={{padding: '0 5px 0 0'}}>
+                        <ContentThumbnail image={BikePic} title='Bike' desc='bike bike bike'/>
+                    </div>
                 </div>
             </div>
             </div>

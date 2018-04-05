@@ -18,10 +18,10 @@ export default class Navbar extends Component {
             
               <div className="collapse navbar-collapse navbar-ex1-collapse">
                 <ul className="nav navbar-nav">
-                  <li><Link to='/'>Home</Link></li>
-                  <li><Link to='/product'>Product</Link></li>
-                  <li><Link to='/other'>Other</Link></li>
-                  <li><Link to='/about'>About</Link></li>
+                  <li style={{width: '100px'}}><Link to='/'>Home</Link></li>
+                  <li style={{width: '100px'}}><Link to='/product'>Product</Link></li>
+                  <li style={{width: '100px'}}><Link to='/other'>Other</Link></li>
+                  <li style={{width: '100px'}}><Link to='/about'>About</Link></li>
                 </ul>
               </div>
               </nav>

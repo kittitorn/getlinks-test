@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <div className='row' style={{padding: '5px 0 5px 0'}}>
+          <div className='row' style={{padding: '5px 0 5px 0', margin: '0'}}>
             <img src={Logo} className='App-logo'/>
           </div>
           <Navbar/>
