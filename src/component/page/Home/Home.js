@@ -7,9 +7,9 @@ class Home extends Component {
     render() {
         return (
             <div className='Home'>
-            <div className='jumbotron' style={{margin: '0 0 10 0'}}>
+            <div className='jumbotron'>
                 <h2>Home</h2>
-                <p>Home</p>
+                <p>Home Welcome home home home photo of bike bike bike</p>
             </div>
             <div style={{textAlign: 'left' ,margin: '0'}}>
                 <div className='container custom-container' >

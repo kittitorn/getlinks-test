@@ -12,6 +12,15 @@
     padding: 0;
 }
 
+.jumbotron {
+    margin: 0 0 10 0;
+    box-shadow: inset 0px 0px 5px;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+
 @media only screen and (min-width : 768px) {
     .container .custom-container { width: 768px; } 
 }

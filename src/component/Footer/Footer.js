@@ -7,7 +7,7 @@ export default class Footer extends Component {
     render() {
         return (
         <footer className='container-fluid' style={{textAlign: 'left' ,margin: '0', padding: '0'}}>
-          <div style={{backgroundColor: '#eee', padding: '0 0 50px 0'}}>
+          <div style={{backgroundColor: '#eee', padding: '0 0 50px 0', boxShadow: 'inset 0px 0px 5px'}}>
               <div style={{padding: '0'}}>
                 <div className='container custom-container' >
                     <div className='col-sm-3'>
