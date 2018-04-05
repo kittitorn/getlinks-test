@@ -7,10 +7,22 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header style={{height: '80px'}}>
-          <div style={{height: '80px'}}/>
-          <div>
-          <Link to='/'>Home</Link>
+        <header className='container'>
+          <div className="navbar-header">
+            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>                        
+            </button>
+            <a className="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <div className="collapse navbar-collapse" id="myNavbar">
+            <ul className="nav navbar-nav">
+              <li className="active"><a href="#">Home</a></li>
+              <li><a href="#">Page 1</a></li>
+              <li><a href="#">Page 2</a></li>
+              <li><a href="#">Page 3</a></li>
+            </ul>
           </div>
         </header>
         <div className='container-fluid' style={{padding: '0', margin: '0'}}>
