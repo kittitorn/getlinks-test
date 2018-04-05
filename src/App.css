@@ -4,7 +4,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 5s linear;
+  animation: App-logo-spin infinite 2s linear;
   height: 60px;
 }
 
@@ -27,4 +27,3 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-

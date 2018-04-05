@@ -15,7 +15,9 @@ class App extends Component {
       <div className="App">
         <header>
           <div className='row' style={{padding: '5px 0 5px 0', margin: '0'}}>
-            <img src={Logo} className='App-logo'/>
+            <div className='hidden-xs'>
+              <img src={Logo} className='App-logo'/>
+            </div>
           </div>
           <Navbar/>
         </header>
