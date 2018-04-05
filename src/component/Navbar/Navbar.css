@@ -1,0 +1,20 @@
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+  

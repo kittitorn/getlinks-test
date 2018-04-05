@@ -1,56 +1,33 @@
 import React, { Component } from 'react';
-import { Link, Route } from 'react-router-dom';
-import Home from './component/Home/';
+import { Route } from 'react-router-dom';
+import Navbar from './component/Navbar/Navbar';
+import Footer from './component/Footer/Footer';
+import Logo from './assets/img/spiral.jpg';
+import Home from './component/page/Home/Home';
+import Product from './component/page/Product/Product';
+import Other from './component/page/Other/Other';
+import About from './component/page/About/About';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className='container'>
-          <div className="navbar-header">
-            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>                        
-            </button>
-            <a className="navbar-brand" href="#">WebSiteName</a>
+        <header>
+          <div className='row' style={{padding: '5px 0 5px 0'}}>
+            <img src={Logo} className='App-logo'/>
           </div>
-          <div className="collapse navbar-collapse" id="myNavbar">
-            <ul className="nav navbar-nav">
-              <li className="active"><a href="#">Home</a></li>
-              <li><a href="#">Page 1</a></li>
-              <li><a href="#">Page 2</a></li>
-              <li><a href="#">Page 3</a></li>
-            </ul>
-          </div>
+          <Navbar/>
         </header>
         <div className='container-fluid' style={{padding: '0', margin: '0'}}>
-          <Route path='/' component={Home}/>
+          <Route exact path='/' component={Home}/>
+          <Route path='/product' component={Product} />
+          <Route path='/other' component={Other} />
+          <Route path='/about' component={About} />
         </div>
-        <footer className='container-fluid' style={{textAlign: 'left' ,margin: '0', padding: '0'}}>
-          <div style={{backgroundColor: '#eee', margin: '0'}}>
-              <div style={{padding: '30px 0 50px 0'}}>
-                <div className='container custom-container' >
-                    <div className='col-sm-3'>
-                        <h4>Footer 1</h4>
-                        <p>Footer</p>
-                    </div>
-                    <div className='col-sm-3'>
-                        <h4>Footer 2</h4>
-                        <p>Footer</p>
-                    </div>
-                    <div className='col-sm-3'>
-                        <h4>Footer 3</h4>
-                        <p>Footer</p>
-                    </div>
-                    <div className='col-sm-3'>
-                        <h4>Footer 4</h4>
-                    </div>
-                </div>
-              </div>
-          </div>
-        </footer>
+        <div>
+          <Footer/>
+        </div>
       </div>
     );
   }

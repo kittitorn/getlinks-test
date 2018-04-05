@@ -1,5 +1,5 @@
 .Home {
-    padding: 30px 0px 30px 0px;
+    padding: 0px 0px 30px 0px;
 }
 
 .thumbnail{
@@ -16,9 +16,3 @@
     .container .custom-container { width: 768px; } 
 }
 
-h4 {
-    margin: 1px 0 0 0;
-}
-p {
-    margin: 0;
-}
